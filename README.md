@@ -99,7 +99,7 @@ metabot/
 
 | Variable | Required | Notes |
 |---|---|---|
-| `GEMINI_API_KEY` | ✅ Yes | From https://aistudio.google.com |
+| `Groq_API_KEY` | ✅ Yes | From  https://console.groq.com/keys |
 | `OM_BASE_URL` | Pre-filled | `https://sandbox.open-metadata.org` |
 | `OM_TOKEN` | ❌ Leave blank | MetaBot auto-logs in! |
 
@@ -120,7 +120,7 @@ Add to Claude desktop config:
       "env": {
         "OM_BASE_URL": "https://sandbox.open-metadata.org",
         "OM_TOKEN": "",
-        "GEMINI_API_KEY": "your_key_here"
+        "Groq_API_KEY": "your_key_here"
       }
     }
   }
