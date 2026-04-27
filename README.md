@@ -1,7 +1,7 @@
 # 🤖 MetaBot — AI-Powered Data Catalog Assistant
 
 > WeMakeDevs x OpenMetadata Hackathon | Track T-01: MCP Ecosystem & AI Agents
-> Powered by Gemini 1.5 Pro + MCP Server + OpenMetadata Sandbox
+> Powered by Groq llama 3.3 + MCP Server + OpenMetadata Sandbox
 
 ---
 
@@ -19,8 +19,8 @@ admin@open-metadata.org / Admin@1234  ←  auto-used by MetaBot
 
 ## 🚀 Quick Start (3 steps only)
 
-### Step 1 — Get Gemini API Key
-Go to https://aistudio.google.com/app/apikey → Create API Key
+### Step 1 — Get Groq API Key
+Go to https://console.groq.com/keys → Create API Key
 
 ### Step 2 — Set up .env
 ```bash
