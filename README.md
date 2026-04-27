@@ -69,7 +69,7 @@ Visit **http://localhost:3000** 🎉
 └─────────────────────────────────────────────┘
 
 Web App:
-React UI → FastAPI → Gemini 1.5 Pro → Sandbox
+React UI → FastAPI → Groq llama 3.3  → Sandbox
 ```
 
 ---
@@ -80,13 +80,13 @@ React UI → FastAPI → Gemini 1.5 Pro → Sandbox
 metabot/
 ├── backend/
 │   ├── openmetadata.py         ← Sandbox client (auto-login)
-│   ├── agent.py                ← Gemini 1.5 Pro AI agent
+│   ├── agent.py                ← Groq llama 3.3  AI agent
 │   ├── main.py                 ← FastAPI server
 │   ├── mcp_server.py           ← MCP server (stdio)
 │   ├── get_sandbox_token.py    ← Connection test script
 │   ├── mcp_config.json         ← Claude.ai / Cursor config
 │   ├── requirements.txt
-│   └── .env.example            ← Only GEMINI_API_KEY needed!
+│   └── .env.example            ← Only Groq_API_KEY needed!
 ├── frontend/
 │   ├── src/App.jsx             ← Chat UI
 │   └── src/App.css             ← Dark theme
