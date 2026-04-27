@@ -8,7 +8,7 @@
 ## ✅ No Docker. No Bot Token. Just 1 API Key.
 
 MetaBot auto-logs in to the OpenMetadata Sandbox using built-in admin credentials.
-**You only need a Gemini API key to run this project.**
+**You only need a Groq API key to run this project.**
 
 ```
 sandbox.open-metadata.org  ←  free, hosted, no setup
