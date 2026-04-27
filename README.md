@@ -26,7 +26,7 @@ Go to https://console.groq.com/keys → Create API Key
 ```bash
 cd backend
 cp .env.example .env
-# Only fill in GEMINI_API_KEY — everything else is pre-filled!
+
 ```
 
 ### Step 3 — Run
